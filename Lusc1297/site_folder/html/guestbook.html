@@ -1,10 +1,118 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <title>Guestbook Page - David Luschen</title>
-	</head>
-	<body>
-	
-	    <h1>Luschen guestbook page, under constuction</h1>
-		</body>
-		</html>
+<meta name="description" content="homepage">
+<meta name="keywords" content="Thank You">
+<meta name="author" content="David Luschen">
+<meta charset="UTF-8">
+
+<title>David Luschen</title> 
+ <link href="guestbook.css" rel="stylesheet" type="text/css"/> 
+</head>
+
+<body>
+
+<div align="center">
+<table border="0" cellpadding="10" width="800">
+<tr>
+<td>
+<div align="center">
+<table border="3" cellpadding="10" width="800">
+<tr class="header">
+<td colspan="24">
+<h1>David Luschen's Guestbook</h1>
+</td>
+</tr>
+
+<tbody>
+<tr class="nav_bar"> 
+<td rowspan="4" height="100" style="text-align:right;" valign="top">
+<a href="../html/home.html">Home</a><br />
+<a href="../html/resume.html">Resume</a><br /> 		
+<a href="../html/guestbook.html">Guestbook</a><br />
+<a href="../html/interests.html">Interests</a><br />
+<a href="../html/reflections.html">Reflections</a><br />
+</td>
+</tr>	
+<tr style="background-color:lightblue">
+<td>Thank you very much for visiting my web page, I would like you to take a shor survey so I can see have information to help me in the future.
+</td>
+</tr>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>	
+</table>
+</div>
+
+ <form align="center"
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Yor First Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Yor Last Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+Should we add you to our mailing list?<br/>
+<input type="radio" name="AddToList" value="yes" checked ="checked"/>Yes
+<input type="radio" name="AddToList" value="no"/>No
+<br/>
+<br/>
+What Are You Studying?
+(check all that apply):<br/>
+<input type="checkbox" name="CIS"/> Computer Information Systems<br/>
+<input type="checkbox" name="CS"/> Computer Science<br/>
+<input type="checkbox" name="Engeneering"/> Engeneering<br/>
+<input type="checkbox" name="Other"/> Other<br/>
+<br/>
+<br/>
+How did you find my site?<br/>
+<select name="Site finder">
+<option>Just surfed in!</option>
+<option>Word of mouth</option>
+<option>By search engine</option>
+<option value="Remove">Never </option>
+</select>
+<br/>
+<br/>
+Where are you from?
+<br/>
+<select name="work" multiple="multiple" size="4">
+<option>Australia</option>
+<option>Japan</option>
+<option>India</option>
+<option>England</option>
+<option>United States</option>
+<option>Other</option>
+</select>
+<br/>
+<br/>
+<tr class="tbody">
+<th colspan="4">
+<p>Comments:<br /></p>
+</th>
+<th colspan="6">
+<p><textarea name="comments" cols="20" rows=15"></textarea>
+</p>
+</th>
+</tr>
+
+<input type="submit"/>
+<input type="reset"/>
+
+</form>
+
+
+
+</body>
+</html>
+
+
